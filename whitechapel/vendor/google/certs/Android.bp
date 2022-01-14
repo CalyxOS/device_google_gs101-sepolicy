@@ -1,0 +1,4 @@
+android_app_certificate {
+    name: "com_qorvo_uwb",
+    certificate: "com_qorvo_uwb",
+}
