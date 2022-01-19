@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d41cebc6_e956314a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-19T20:54:46Z",
+      "side": 1,
+      "message": "got it from mac_permissions.xml, or\n\n```\nunzip $apk\nopenssl pkcs7 -inform DER -in META-INF/CERT.RSA -out CERT.pem -print_certs\n```",
+      "revId": "659de78a1a57831ebf4ad3d52fc6779652ec5843",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
