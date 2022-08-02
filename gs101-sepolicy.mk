@@ -29,6 +29,15 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_ext
 #   PowerStats HAL
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
 
+# google_battery service
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
+
+# twoshay
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
+
+# ramdump
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/ramdump
+
 # sscoredump
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/sscoredump
 
