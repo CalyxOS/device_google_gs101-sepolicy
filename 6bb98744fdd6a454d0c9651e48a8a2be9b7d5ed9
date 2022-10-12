@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a84d0be_de7ea8ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-12T21:02:43Z",
+      "side": 1,
+      "message": "```\n# ps -AZ | grep -i oemril                                                                                                                                                                                                                                                                                                                 \nu:r:radio:s0                   radio         2264   805 14702512 90112 do_epoll_wait       0 S com.samsung.slsi.telephony.oem.oemrilhookservice\nu:r:oemrilservice_app:s0:c142,c256,c512,c768 u0_a142 2374 805 14736128 91688 do_epoll_wait 0 S com.samsung.slsi.telephony.oemril\n```\n\nThis works but I don\u0027t know if it\u0027s right, or if it has other side effects.",
+      "revId": "6bb98744fdd6a454d0c9651e48a8a2be9b7d5ed9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
