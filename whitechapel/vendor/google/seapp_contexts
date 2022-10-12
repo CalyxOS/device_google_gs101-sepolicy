@@ -7,7 +7,7 @@ user=system seinfo=platform name=com.samsung.slsi.sysdebugmode domain=vendor_tel
 user=system seinfo=platform name=com.samsung.slsi.telephony.networktestmode domain=vendor_telephony_app levelFrom=all
 
 # oemrilservice
-user=_app isPrivApp=true name=com.samsung.slsi.telephony.oemril domain=oemrilservice_app levelFrom=all
+user=_app seinfo=platform isPrivApp=true name=com.samsung.slsi.telephony.oemril domain=oemrilservice_app levelFrom=all
 
 # Samsung S.LSI IMS
 user=_app isPrivApp=true name=com.shannon.imsservice domain=vendor_ims_app levelFrom=all
